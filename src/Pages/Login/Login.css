@@ -1,0 +1,107 @@
+/* .nav-link {
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #336799;
+    border-bottom: 2px thin #336799;
+}
+
+.nav-link:focus {
+    color: #000000;
+    border-bottom: thin #336799;
+}
+
+.nav-item {
+    position: relative;
+    margin-left: 59em;
+} */
+
+p{
+    font-weight: bold;
+}
+
+.txts{
+    color: black;
+}
+
+
+.loginBox{
+    margin-top: 5em;
+}
+.email, .passworded {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 3em;
+    /* border: none; */
+    border-right: hidden;
+    border-left: hidden;
+    border-top: hidden;
+}
+
+ input:focus{
+   
+    border-color:white;
+   
+}
+
+.forgot, .remember{
+    color: #336799;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.botin{
+    background-color: #336799;
+    border: none;
+    color: white;
+    margin-top: 3em;
+    width: 100%;
+}
+
+
+.arrow {
+    position: relative;
+    transition: 1s;
+    left: 10em;
+}
+
+
+
+.txtFoot{
+    margin-top: 10em;
+    cursor: pointer;
+}
+
+.backg2 {
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 20.5%;
+}
+
+@media only screen and (max-width: 600px){
+	.backg2 {
+        display: none;
+    }
+
+    .arrow {
+        position: relative;
+        transition: 1s;
+        left: 5em;
+    }
+}
+@media only screen and (max-width: 425px){
+	.backg2 {
+        display: none;
+    }
+
+    .arrow {
+        position: relative;
+        transition: 1s;
+        left: 5em;
+    }
+}
