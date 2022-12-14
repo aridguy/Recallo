@@ -16,7 +16,7 @@ const Home = () => {
 
         <div>
 
-            <nav class="navbar navbar-expand-sm bg-muted navbar-light bg">
+            <nav class="navbar navbar-expand-sm bg-muted navbar-light">
                 <div class="container">
                     <img className="navbar-brand ml-4" src={Logo} alt="logo" />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -31,8 +31,19 @@ const Home = () => {
                     </div>
                 </div>
             </nav>
-
-
+            <div className="modals">
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-4"></div>
+                        <div className="col-md-4">
+                            <div className="modalProfiles">
+                                <b className="p-txt">AM</b>
+                            </div>
+                        </div>
+                        <div className="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
             <div className="universalWrap">
                 <div className="sidebar">
                     <div className="container">
@@ -40,6 +51,7 @@ const Home = () => {
                             <div className="col-md-4"></div>
                             <div className="col-md-4">
                                 <div className="profile2"><b className="p-txt2">AM</b></div>
+                                <i className="fa fa-caret"></i>
                             </div>
                             <div className="col-md-4"></div>
                         </div>
@@ -64,19 +76,19 @@ const Home = () => {
                                         <img alt="home" src={Homes} />&nbsp;<page>Home</page>
                                     </div>
                                     <div className="pagesBox mb-1">
-                                        <img alt="home" src={Calls} /><page>Home</page>
+                                        <img alt="home" src={Calls} /><page>Calls</page>
                                     </div>
                                     <div className="pagesBox mb-1">
-                                        <img alt="home" src={Contacts} />&nbsp;<page>Home</page>
+                                        <img alt="home" src={Contacts} />&nbsp;<page>Contact</page>
                                     </div>
                                     <div className="pagesBox mb-1">
-                                        <img alt="home" src={Personnel} /><page>Home</page>
+                                        <img alt="home" src={Personnel} /><page>Personnel</page>
                                     </div>
                                     <div className="pagesBox mb-1">
-                                        <img alt="home" src={Analytics} />&nbsp;<page>Home</page>
+                                        <img alt="home" src={Analytics} />&nbsp;<page>analytics</page>
                                     </div>
                                     <div className="pagesBox mb-1">
-                                        <img alt="home" src={Tickets} /><page>Home</page>
+                                        <img alt="home" src={Tickets} /><page>Tickets</page>
                                     </div>
                                 </div>
                             </div>
