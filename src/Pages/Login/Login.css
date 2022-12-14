@@ -41,8 +41,7 @@ p{
 }
 
  input:focus{
-   
-    border-color:white;
+    outline: none;
    
 }
 

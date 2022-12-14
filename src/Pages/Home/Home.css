@@ -1,0 +1,111 @@
+
+
+.profile{
+    background-color: #336799;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+.p-txt{
+    position: relative;
+    top: 7px;
+}
+.p-txt2{
+    position: relative;
+    top: 10px;
+}
+.profile2{
+    background-color: #336799;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+   
+    
+}
+
+.universalWrap{
+    display: inline-flex;
+}
+
+.section2{
+    background-color: #f8f9fa;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+       
+}
+.section2Txt{
+    
+}
+.sidebar {
+    height: 100%;
+    width: 300px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    padding-top: 16px;
+    height: 45.7em;
+    border-right: solid 2px rgba(209, 206, 206, 0.623);
+  }
+  
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .extraTxt{
+    color: #336799;
+    font-size: larger;
+  }
+
+  small{
+    position: relative;
+    bottom: 1em;
+  }
+
+  .botins{
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-size: small;
+    font-weight: 500;
+  }
+
+  .pagesBox{
+    background-color: #f8f9fa;
+    height: 3em;
+    width: 100%;
+    padding: 0.7em;
+    border-radius: 50px;
+  }
+  .pagesBox:hover{
+    background-color: #EEEEEE;
+  }
+
+  page{
+    position: relative;
+    left: 40%;
+    cursor: pointer;
+    
+  }
+
+  .logout{
+    color:#336799;
+    font-weight: 500;
+    cursor: pointer;
+  }

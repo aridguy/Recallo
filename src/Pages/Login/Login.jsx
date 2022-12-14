@@ -4,17 +4,29 @@ import './Login.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LargeBg from '../../Assets/mainBg.png'
 import Arrow from '../../Assets/arrow-right-circle.svg'
+import { useNavigate } from "react-router-dom";
 
 
 
 const Login = () => {
+    const navigate = useNavigate();
+    const GoHome = () =>{
+        navigate('/home');
+    }
+
     const Styles = {
         buttonStyles: {
           backgroundColor: "#336799",
           
         }
+    }
+        const Styles2 = {
+            atyles: {
+              color: "black",
 
 
+              
+            }
     }
 
     return (
@@ -28,19 +40,19 @@ const Login = () => {
                     <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                         <ul className="navbar-nav ">
                             <li className="nav-item">
-                                <a className="nav-link" href="localhost:3000">Login</a>
+                                <a style={Styles2.atyles} className="nav-link" href="localhost:3000">Login</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="localhost:3000">Creat an Account</a>
+                                <a style={Styles2.atyles} className="nav-link" href="localhost:3000">Creat an Account</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="localhost:3000">Contact Support</a>
+                            <li  className="nav-item">
+                                <a style={Styles2.atyles} className="nav-link" href="localhost:3000">Contact Support</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <img className="backg2" src={LargeBg} alt="latrge image" />
+            <img className="backg2" src={LargeBg} alt="latrge" />
             <div className="container mt-5">
                 <div className="row">
 
@@ -63,7 +75,8 @@ const Login = () => {
                                         </div>
                                     </div>
                                     <div className="btnBox">
-                                        <button style={Styles.buttonStyles} className="btn btn-secondary btn-block botin">
+                                    
+                                        <button onClick={GoHome} style={Styles.buttonStyles} className="btn btn-secondary btn-block botin">
                                             Login
                                             <img className="arrow" src={Arrow} alt="arrow right circle" />
                                         </button>
